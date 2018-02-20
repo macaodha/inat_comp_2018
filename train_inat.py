@@ -50,7 +50,7 @@ def main():
     args = Params()
 
     # load pretrained model
-    print("Using pre-trained model '{}'".format(args.arch))
+    print("Using pre-trained inception_v3")
     # use this line if instead if you want to train another model
     #model = models.__dict__[args.arch](pretrained=True)
     model = inception_v3(pretrained=True)
