@@ -117,7 +117,7 @@ def main():
         best_prec3 = max(prec3, best_prec3)
         save_checkpoint({
             'epoch': epoch + 1,
-            'arch': args.arch,
+            #'arch': args.arch,
             'state_dict': model.state_dict(),
             'best_prec3': best_prec3,
             'optimizer' : optimizer.state_dict(),
