@@ -5,7 +5,7 @@ This code finetunes an Inception V3 model (pretrained on ImageNet) on the iNatur
 ### Training
 The network was trained on Ubuntu 16.04 using PyTorch 0.3.0. Each training epoch took about 1.5 hours using a GTX Titan X.  
 The links for the raw data are available [here](https://github.com/visipedia/inat_comp).
-We also provide a trained model that can be downloaded from [here](http://vision.caltech.edu/~macaodha/inat2018/iNat_2018_InceptionV3.pth.tar).
+We also provide a trained model that can be downloaded from [here](https://data.caltech.edu/records/7e9te-sae53/files/iNat_2018_InceptionV3.pth.tar).
 Every epoch the code will save a checkpoint and the current best model according to validation accuracy.  
 Training for 75 epochs results in a top one accuracy of 60.20% and top three of 77.91% on the validation set.
 
